@@ -1,0 +1,13 @@
+{
+    "id": "nodebb-plugin-profile-redirection",
+    "name": "Profile Redirection",
+    "description": "Redirects user profile to an external URL",
+    "url": "https://github.com/your-username/nodebb-plugin-profile-redirection",
+    "version": "0.1.0",
+    "author": "Alex 'Jimbo' Debonair",
+    "hooks": [
+      { "hook": "static:app.load", "method": "init" },
+      { "hook": "response:router.page", "method": "redirect" }
+    ]
+  }
+  

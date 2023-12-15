@@ -1,0 +1,9 @@
+{
+    "name": "nodebb-plugin-profile-redirect",
+    "version": "0.1.0",
+    "description": "A plugin to redirect user profile to an external URL",
+    "author": "Alex 'Jimbo' Debonair",
+    "nodebb": {
+        "compatibility": "^3.0.0"
+    }
+}
